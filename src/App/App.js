@@ -1,10 +1,9 @@
-import './App.css';
+// import './App.css';
 import React from 'react';
-
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import HomePage from '../pages/HomePage/HomePage';
 
-const App = () => {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -13,6 +12,6 @@ const App = () => {
       </Routes>
     </BrowserRouter>
   );
-};
+}
 
 export default App;
