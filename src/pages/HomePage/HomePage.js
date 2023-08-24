@@ -20,9 +20,9 @@ function HomePage() {
   return (
     <div className="Home">
       <header className="Home-header">
-        <h1>Manga Collection</h1>
+        <h1>Mangaeul Collection</h1>
       </header>
-      <p>Welcome to the Manga Browsing App!</p>
+      <p>Welcome to the Manga Browsing!</p>
       <MangaList mangaList={mangaList} />
     </div>
   );
